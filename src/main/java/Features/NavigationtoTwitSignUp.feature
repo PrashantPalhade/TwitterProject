@@ -8,7 +8,7 @@ Feature: Twitter Login
 
     Examples: 
       | username                   | userfullname     | password  |
-      | prashant.palhade@gmail.com | Prashant Palhade | Time2win# |
+      | prashant.palhade@gmail.com | Prashant Palhade | test2021# |
 
   Scenario Outline: Login page with invalid credentials
     Given User is on Login Page
@@ -28,7 +28,5 @@ Feature: Twitter Login
     Then Profile Page is displayed
 
     Examples: 
-      | username  | userfullname      | password  |
-      | DbPalhade | PrashantPalhadeDB | Time2win# |
-      
-      
+      | username                   | userfullname     | password  |
+      | prashant.palhade@gmail.com | Prashant Palhade | test2021# |
